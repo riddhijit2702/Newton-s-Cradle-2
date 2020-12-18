@@ -14,18 +14,18 @@ function setup() {
   engine = Engine.create();
   
   world = engine.world;
-  
-pendulum1=new Pendulum(100,355,"green")
-pendulum2=new Pendulum(200,355,"green")
-pendulum3=new Pendulum(290,355,"green")
-pendulum4=new Pendulum(360,355,"green")
-pendulum5=new Pendulum(450,355,"green")
+
+pendulum1=new Pendulum(120,355,"#0F0E13")
+pendulum2=new Pendulum(180,355,"#0F0E13")
+pendulum3=new Pendulum(240,355,"#0F0E13")
+pendulum4=new Pendulum(300,355,"#0F0E13")
+pendulum5=new Pendulum(360,355,"#0F0E13")
 
   rope1=new Sling (pendulum1.body,{x:120,y:50})
-  rope2=new Sling (pendulum2.body,{x:200,y:50})
-  rope3=new Sling (pendulum3.body,{x:280,y:50})
-  rope4=new Sling (pendulum4.body,{x:360,y:50})
-  rope5=new Sling (pendulum5.body,{x:420,y:50})
+  rope2=new Sling (pendulum2.body,{x:180,y:50})
+  rope3=new Sling (pendulum3.body,{x:240,y:50})
+  rope4=new Sling (pendulum4.body,{x:300,y:50})
+  rope5=new Sling (pendulum5.body,{x:360,y:50})
 
 
  /* let canvasmouse=Mouse.create(canvas.elt)
