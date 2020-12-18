@@ -21,7 +21,7 @@ display(){
     translate(pos.x,pos.y)
     rotate(angle)
     stroke("white")
-    fill("#0F0E13")
+    fill(this.color)
     ellipse(0,0,60,60)
     pop()
 }
